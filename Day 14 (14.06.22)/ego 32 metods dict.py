@@ -52,5 +52,15 @@
 # в Shell на разных строках будут выведены: one two three four
 #
 # 7) Метод items (Данный метод возвращает все значения)
-# print(g.items())
+# print(g.items()) в Shell: dict_items([(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')])
+# for pair in g.items():
+#   print(pair) 
+# в Shell на разных строках будут выведены: (1, 'one') (2, 'two') (3, 'three') (4, 'four')
 #
+# print(g.items())
+# for pair in g.items():
+#     print(pair[0],pair[1]) - вывод и ключей и эначений
+#
+# print(g.items())
+# for key,value in g.items():
+#     print(key,value) - вывод и ключей и эначений
