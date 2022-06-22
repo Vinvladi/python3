@@ -4,4 +4,4 @@ while i < 6 and k < 6:
     i = i+1
     d = d+k
     k = k+1
-print(d)
+print(d)  # сумма элементов
