@@ -2,6 +2,7 @@
 # random ()
 import random
 import openpyxl
+#Нужно добавить чтение и запись в файл excel с возможностью записи на новые позиции
 
 #book =openpyxl.Workbook()
 #sheet =book.active
