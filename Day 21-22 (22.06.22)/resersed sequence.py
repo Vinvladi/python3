@@ -1,5 +1,8 @@
-def reverse_seq(n):
-    if reverse_seq()
-        a[i] = x
-    pass
-print(a[i])
+def massiv(n):
+    a = []
+    for item in range(1,n+1):
+        for i in range(item,0,-1):
+            a[i] = a.pop(item)
+
+
+massiv(5)
