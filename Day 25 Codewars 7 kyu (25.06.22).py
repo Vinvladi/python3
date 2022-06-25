@@ -1,7 +1,7 @@
 def plastic_balance(list):
    for item in list:
        for k in range(0,len(item)//2,1):
-           
+
 
 
 """   for k in range(0, math.floor(len([list])/2), 1):
