@@ -1,0 +1,1 @@
+print((n := int(input())) * 2, n / 2, sep='\n')
