@@ -1,0 +1,6 @@
+r,g,b = int(input()), int(input()), int(input())
+red = hex(r)
+green = hex(g)
+blue = hex(b)
+d = str("#") + str(red.lstrip("0x")).rjust(2,"0") + str(green.lstrip("0x")).rjust(2,"0") + str(blue.lstrip("0x")).rjust(2,"0")
+print(d.upper())
