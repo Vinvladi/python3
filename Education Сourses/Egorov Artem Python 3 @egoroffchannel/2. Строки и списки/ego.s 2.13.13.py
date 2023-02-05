@@ -1,0 +1,6 @@
+a, b = map(str,input().split())
+a = a.upper()
+b = b.upper()
+a = '-'.join(a)
+b = '-'.join(b)
+print(a,b)
