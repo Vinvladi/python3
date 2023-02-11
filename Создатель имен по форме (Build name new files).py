@@ -2,9 +2,9 @@
 name_list = ["ego.s", "mail"]
 name = "ego.s"
 symbol = " "  # символ между name и stage
-stage = "3.5"
+stage = "4.2"
 start = 2
-end = 4
+end = 8
 for i in range(start, end+1):
     with open(f'{name}{symbol}{stage}.{i}.py', 'w'):
         pass
