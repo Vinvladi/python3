@@ -1,18 +1,38 @@
 n = int(input())
-sum_2 = int(input())
+i = int(input())
 count = 1
-if sum_2 < n:
-    while sum_2 < n:
-        sum_1 = int(input())
-        sum_2 = sum_2 + sum_1
-        if sum_2 > n:
+if i < n:
+    while i <= n:
+        i_next = int(input())
+        i = i_next + i
+        if i > n:
+            i = i - i_next
             print("Довольно!")
-            print(sum_2-sum_1)
+            print(i)
             print(count)
             break
         count += 1
 else:
-    sum_1 = 0
     print("Довольно!")
-    print(sum_2-sum_1)
+    print(0)
+    print(0)
+
+
+"""n = int(input())
+sum = int(input())
+count = 1
+if sum < n:
+    while sum < n:
+        sum_1 = int(input())
+        sum = sum + sum_1
+        if sum > n:
+            print("Довольно!")
+            print(sum-sum_1)
+            print(count)
+            break
+        count += 1
+else:
+    print("Довольно!")
+    print(sum-sum_1)
     print(count)
+"""
