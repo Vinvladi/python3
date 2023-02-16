@@ -1,3 +1,4 @@
+"""
 def poisk(n):
     k = len(str(n))
     for item
@@ -19,3 +20,4 @@ while n >= 0 :
     k = +1
     n =- 1
 a[0]+a[1] = b[0]+b[1] + 1
+"""
