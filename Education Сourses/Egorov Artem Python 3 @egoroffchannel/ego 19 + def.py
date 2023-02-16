@@ -25,7 +25,7 @@ def number_decomposition(x):  # разложение на разряды
     return number_decomposition_list  # мы получим обратный список, если число: 6946, то на выходе в терминале мы получим 6,9,4,6
 
 
-def number_good_decomposition(x):
+def number_good_decomposition(x):  # получаем в правильном расположении лист с элементами list с элементами
     number_good_decomposition_list = []
     while x > 0:
         decomposition_number = x % 10
@@ -62,12 +62,12 @@ def multiplication_of_digit_ver_1(x):
         x = x // 10
     return multiplication_digit
 
-x = int(input())
+x = int(input()) # все берем из одного числа
 number_of_digits(x)  # вызов функции number_of_digits от числа i
 number_of_even_number(x)  # вызов функции четных чисел в разрядах числа x
 number_decomposition(x)  # вызов функции, которая в конечном итоге выдает list со всеми цифрами числа
-number_good_decomposition(
-    x)  # вызов функции, которая в конечном итоге выдает list со всеми цифрами числа в правильном порядке
+number_good_decomposition(x)  # вызов функции, которая в конечном итоге выдает
+# list со всеми цифрами числа в правильном порядке
 sum_number_of_digit_ver_1(x)  # первая версия egorov 19 лекция youtube сумма всех цифр числа
 sum_number_of_digit_ver_2(x)  # вторая версия, написанная непосредственно мной
 multiplication_of_digit_ver_1(x)  # умножение числа
