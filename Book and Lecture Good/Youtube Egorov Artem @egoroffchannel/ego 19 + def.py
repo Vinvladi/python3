@@ -82,6 +82,17 @@ def digit_minimum(x):
         x = x // 10
     return minimum
 
+
+def digit_10_to_2(x):
+    digit_to_2 = []
+    while x > 0:
+        last = x % 10
+        digit_to_2.append(last)
+        x = x // 10
+    digit_to_2.reverse()
+    return digit_to_2
+
+
 x = int(input())  # все берем из одного числа
 number_of_digits(x)  # вызов функции number_of_digits от числа i
 number_of_even_number(x)  # вызов функции четных чисел в разрядах числа x
@@ -93,6 +104,7 @@ sum_number_of_digit_ver_2(x)  # вторая версия, написанная 
 multiplication_of_digit_ver_1(x)  # умножение числа
 digit_maximum(x)  # максимальная цифра числа
 digit_minimum(x)  # минимальная цифра числа
+digit_10_to_2(x)  # перевод числа в двоичную систему
 
 print(
     f'Сколько разрядов у числа {x}? Разрядов = {number_of_digits(x)} \n'
@@ -100,4 +112,5 @@ print(
     f'Разложение на список всех цифр числа обратная запись: {number_decomposition(x)}, а вот прямая:{number_good_decomposition(x)} \n'
     f'Сумма всех цифр числа = {sum_number_of_digit_ver_1(x)} - Egorov, {sum_number_of_digit_ver_2(x)} -  моя версия \n'
     f'Умножение всех цифр числа = {multiplication_of_digit_ver_1(x)})'
-    f'Самая большая цифра числа = {digit_maximum(x)}, а тут самая маленькая = {digit_minimum(x)} ')
+    f'Самая большая цифра числа = {digit_maximum(x)}, а тут самая маленькая = {digit_minimum(x)} '
+    f'Десятичная форма записи числа переводится в двоичную (list) = {digit_10_to_2(x)}')
