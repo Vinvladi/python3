@@ -62,7 +62,27 @@ def multiplication_of_digit_ver_1(x):
         x = x // 10
     return multiplication_digit
 
-x = int(input()) # все берем из одного числа
+
+def digit_maximum(x):
+    maximum = 0
+    while x > 0:
+        last = x % 10
+        if last > maximum:
+            maximum = last
+        x = x // 10
+    return maximum
+
+
+def digit_minimum(x):
+    minimum = 9
+    while x > 0:
+        last = x % 10
+        if last < minimum:
+            minimum = last
+        x = x // 10
+    return minimum
+
+x = int(input())  # все берем из одного числа
 number_of_digits(x)  # вызов функции number_of_digits от числа i
 number_of_even_number(x)  # вызов функции четных чисел в разрядах числа x
 number_decomposition(x)  # вызов функции, которая в конечном итоге выдает list со всеми цифрами числа
@@ -71,10 +91,13 @@ number_good_decomposition(x)  # вызов функции, которая в к�
 sum_number_of_digit_ver_1(x)  # первая версия egorov 19 лекция youtube сумма всех цифр числа
 sum_number_of_digit_ver_2(x)  # вторая версия, написанная непосредственно мной
 multiplication_of_digit_ver_1(x)  # умножение числа
+digit_maximum(x)  # максимальная цифра числа
+digit_minimum(x)  # минимальная цифра числа
 
 print(
     f'Сколько разрядов у числа {x}? Разрядов = {number_of_digits(x)} \n'
     f'Сколько четных чисел в разрядах числа {x}? Количество четных разрядов {number_of_even_number(x)} \n'
     f'Разложение на список всех цифр числа обратная запись: {number_decomposition(x)}, а вот прямая:{number_good_decomposition(x)} \n'
     f'Сумма всех цифр числа = {sum_number_of_digit_ver_1(x)} - Egorov, {sum_number_of_digit_ver_2(x)} -  моя версия \n'
-    f'Умножение всех цифр числа = {multiplication_of_digit_ver_1})')
+    f'Умножение всех цифр числа = {multiplication_of_digit_ver_1(x)})'
+    f'Самая большая цифра числа = {digit_maximum(x)}, а тут самая маленькая = {digit_minimum(x)} ')
