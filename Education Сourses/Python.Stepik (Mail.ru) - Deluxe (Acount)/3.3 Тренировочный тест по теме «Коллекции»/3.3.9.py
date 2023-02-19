@@ -1,0 +1,5 @@
+a=set('abc')
+b=set('def')
+b.intersection_update(a)
+print(a)
+print(b)
