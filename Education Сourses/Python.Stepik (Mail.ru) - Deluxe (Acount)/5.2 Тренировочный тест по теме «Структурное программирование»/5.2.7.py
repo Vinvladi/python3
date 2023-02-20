@@ -1,4 +1,5 @@
- def is_chief_detected(num):
+"""
+def is_chief_detected(num):
  return num == "A555AA"
 
 
