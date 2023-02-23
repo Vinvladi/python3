@@ -81,3 +81,12 @@ Task (The solution of the problem)
 @onedelxd : но больше всего ты любишь ЕБАННЫЕ ТАБЛИЦЫ, но не меня (c)
 @vinvladi: Лагаю таблицы (c)
 ```
+
+Обработать links:
+1) https://www.youtube.com/watch?v=lEAjwY5TAsE (1-ый пункт)
+2) https://www.youtube.com/watch?v=msiXxPIFW-o git + pycharm (простое и лучшее)
+3) https://www.youtube.com/watch?v=HVQNxdI6fqY&t=2690s практический курс по sql жирный мощный
+4) https://www.youtube.com/watch?v=z4kSFUwnL5A парсинг сайтов под steamapi закрытый проект
+5) https://github.com/cjgb/rPython-win/issues/17 гит установки pypy (1-ый пункт)
+6) https://www.python.org/downloads/release/python-366/ 
+7) https://www.techiedelight.com/ru/rename-git-branch/ (переименовать ветку git)
