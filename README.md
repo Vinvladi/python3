@@ -69,13 +69,13 @@
 ```
 Task (The solution of the problem)
 ```
-| Папка        | Уровень      | Готово   | Ссылка                   |
-|--------------|--------------|----------|--------------------------|
-| ACMP task    | Medium       | 31/1000  | [acmp](https://acmp.ru/) |
-| Codeforce    | Medium/Hard  | 16/3595+ | --------                 |
-| Codewars all | Medium/Hard  | -------- | --------                 |
-| Inmsk tasks  | Easy         | -------- | --------                 |
-| LeetCode     | Hard         | -------- | --------                 |
+| Папка        | Уровень      | Готово                                | Рейтинг              | Ссылка                                         |
+|--------------|--------------|---------------------------------------|----------------------|------------------------------------------------|
+| ACMP task    | Medium       | 41/1000                               | 478 / 41917 (1,14 %) | [acmp](https://acmp.ru/)                       |
+| Codeforce    | Medium/Hard  | 18/3595+                              | 604 MMR (all 0,50%)  | [codeforce](https://codeforces.com/)           |
+| Codewars all | Medium/Hard  | 6 kyu point 135                       |                      | [codewars](https://www.codewars.com/dashboard) |
+| Inmsk tasks  | Easy         | --------                              |                      | --------                                       |
+| LeetCode     | Hard         | easy 3/630 (medium 1/1372 hard 0/575) |                      | --------                                       |
 
 ```
 У тебя в таблицах 200к строк? Нет, всего лишь 50к (с)
