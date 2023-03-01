@@ -1,9 +1,10 @@
 import time
 import math
 
-start_time = time.time()
+
 
 n, m = map(int, input().split())
+start_time = time.time()
 count = 0
 if n == m:
     p = 1
