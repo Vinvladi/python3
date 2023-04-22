@@ -3,7 +3,7 @@ import math
 d = int(input(("Введите кол-во операций: ")))
 base = - math.pi / 4
 base_int = "π/4"
-list_base = [0.375, -0.6, -1.44, -2.496, -4.0704, -6.5434, -10.482, -16.77]
+list_base = [2.4, 2, 1.76, 1.616, 1.5296, 1.4777, 1.4466, 1.4279]
 basic_complex = complex(0, 1)
 vivod = complex(0, 0)
 vivod_r = complex(0, 0)
@@ -12,7 +12,7 @@ elem_list_cos_sin = []
 for index_i in range(0, d + 1, 1):
     for index_j in range(0, d + 1, 1):
         vivod = list_base[index_j] * (
-                    math.cos(base * index_i * index_j) + basic_complex * math.sin(base * index_i * index_j)) + vivod
+                math.cos(base * index_i * index_j) + basic_complex * math.sin(base * index_i * index_j)) + vivod
         vivod_r = list_base[index_j] * (
                 math.cos(base * index_i * index_j) + basic_complex * math.sin(base * index_i * index_j))
         l1 = f"x({index_j})*e^-i*{base_int})*{index_i}*{index_j}"
