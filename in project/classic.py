@@ -15,6 +15,7 @@ with open(filename_1, "r", encoding='utf-8') as f:
 # Remove the newline characters from each line.
 lines_1 = [line.strip() for line in lines_1]
 
+#
 for item in range(0, len(lines_1)):
     d_1 = str("Inscribed") + str(" ") + str(lines_1[item])
     lines_1.append(d_1)
