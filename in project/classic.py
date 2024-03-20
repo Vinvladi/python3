@@ -37,6 +37,8 @@ for item in range(0, len(lines_1)):
     lines_1.append(d_9)
     d_10 = str("Unusual") + str(" ") + str(lines_1[item])
     lines_1.append(d_10)
+    d_11 = str("Elder") + str(" ") + str(lines_1[item])
+    lines_1.append(d_11)
 
 for item_1 in lines:
     if item_1 in lines_1:
